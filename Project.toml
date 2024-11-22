@@ -1,10 +1,9 @@
 name = "libidn2_jll"
 uuid = "e3d30ef0-22f3-5ccc-b703-2e063d8d1f30"
-version = "2.3.2+0"
+version = "2.3.7+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 libunistring_jll = "6db05002-db9d-53dd-a359-17d4854bdf22"
 Libiconv_jll = "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
@@ -13,3 +12,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+Libdl = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
